@@ -1,8 +1,8 @@
 MIT License
 
-Copyright (c) 2023 NeoForged project
+Copyright (c) 2023 Steven Carpenter
 
-This license applies to the template files as supplied by github.com/NeoForged/MDK
+This license applies to the template files as supplied by github.com/specCon18/Utility_Rings
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
