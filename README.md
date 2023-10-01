@@ -1,13 +1,14 @@
 
-Installation information
+Utility Rings
 =======
+A small mod that adds in a ring to turn lava within one block of the player into obsidian
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-Once you have your clone, you can initialize your copy.
 
+
+
+
+## Template Info
 Setup Process:
 --------
 
