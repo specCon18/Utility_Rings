@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/specCon18/Utility_Rings/issues"
 
 [[mods]]
 modId="util_rings"
-version="1.20_0.1.0"
+version="1.20-1.0.0.0"
 displayName="Utility Rings"
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 updateJSONURL="https://skdevstudios.dev/util_rings/updates.json"
@@ -27,19 +27,19 @@ description='''
 Adds a set of rings for the curios ring slot that solve small issues in mc ex.) I fucking hate lava in my mines :P
 '''
 # A file name (in the root of the mod JAR) containing a logo for display
-# logoFile="examplemod.png"
+# logoFile="util_rings.png"
 showAsResourcePack=false
 
-[[dependencies.examplemod]]
+[[dependencies.util_rings]]
 modId="forge"
 mandatory=true
 versionRange="[47,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.util_rings]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20]"
+versionRange="[1.20,1.21)"
 ordering="NONE"
 side="BOTH"
