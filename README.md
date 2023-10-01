@@ -3,27 +3,26 @@ Utility Rings
 =======
 A small mod that adds in a ring to turn lava within one block of the player into obsidian
 
-
-
-
-
-
-## Template Info
-Setup Process:
+Setup the project to contribute:
 --------
 
-Step 1: Open your command-line and browse to the folder where you extracted cloned your copy of this repository to.
+Step 1: Open your command-line and browse to the project directory
 
 Step 2: You're left with a choice.
 If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+1. Run the following command to generate the runners for the mod in eclipse (Client,Server,Data,GameTestServer):
+   Windows: `./gradlew.bat genEclipseRuns`
+   Linux/MacOS: `./gradlew genEclipseRuns`
+2. Run the following command to create the eclipse project:
+   Windows: `./gradlew.bat eclipse`
+   Linux/MacOS: `./gradlew eclipse`
 
 If you prefer to use IntelliJ:
 1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
+2. Import the project by pointing IntelliJ to the build.gradle file.
+3. Run the following command to generate the runners for the mod in IntelliJ (Client,Server,Data,GameTestServer):
+   Windows: `./gradlew.bat genIntellijRuns`
+   Linux/MacOS: `./gradlew genIntellijRuns`
 4. Refresh the Gradle Project in IDEA if required.
 
 If at any point you are missing libraries in your IDE, or you've run into problems you can 
@@ -38,7 +37,6 @@ license, if you do not agree with it you can change your mapping names to other 
 build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
 https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Credit:
+=======
+- Project E for basic iron band texture
