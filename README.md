@@ -1,10 +1,8 @@
 
 # Utility Rings
-=======
 A small mod that adds in a ring to turn lava within one block of the player into obsidian
 
 ## Setup the project to contribute:
---------
 
 ### Step 1:
 Open your command-line and browse to the project directory
