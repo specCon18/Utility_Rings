@@ -39,4 +39,6 @@ https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
 
 Credit:
 =======
-- Project E for basic iron band texture
+- sinkillerj the developer of [Project E](https://github.com/sinkillerj/ProjectE) for basic iron band texture.
+- TheIllusiveC4 for the [CuriosAPI](https://github.com/TheIllusiveC4/Curios) saving me so much time.
+- The [ParchmentMC](https://parchmentmc.org/docs/getting-started) team for their neutral bindings.
