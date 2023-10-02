@@ -1,5 +1,6 @@
 package com.skdevstudios.util_rings;
 
+import com.skdevstudios.util_rings.init.BlockInit;
 import com.skdevstudios.util_rings.init.CreativeTabInit;
 import com.skdevstudios.util_rings.init.ItemsInit;
 
@@ -22,6 +23,8 @@ public class UtilRings
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //Register the Items
         ItemsInit.ITEMS.register(modEventBus);
+        //Register the Blocks
+        BlockInit.BLOCKS.register(modEventBus);
         //Register the Creative Tabs
         CreativeTabInit.CREATIVE_MODE_TABS.register(modEventBus);
         // Register the Event Bus
