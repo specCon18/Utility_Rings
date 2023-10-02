@@ -21,6 +21,8 @@ public class CreativeTabInit {
         .displayItems((parameters, output) -> {
             output.accept(ItemsInit.IRON_RING.get());
             output.accept(ItemsInit.VOLCANIC_GLASS_RING.get());
+            output.accept(ItemsInit.MAGNET_RING.get());
+            output.accept(ItemsInit.GROWTH_RING.get());
         })
         .build()
     );

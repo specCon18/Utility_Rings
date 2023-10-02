@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "$#$",
+      "#%#",
+      "$#$"
+    ],
+    "key": {
+      "%": {
+        "item": "util_rings:iron_ring"
+      },
+      "#": {
+        "item": "minecraft:bone_block"
+      },
+      "$": {
+        "tag": "minecraft:leaves"
+      }
+    },
+    "result": {
+      "item": "util_rings:growth_ring",
+      "count": 1
+    }
+  }
+  

@@ -1,5 +1,7 @@
 {
     "item.util_rings.iron_ring": "Iron Ring",
     "item.util_rings.volcanic_glass_ring": "Ring of Volcanic Glass",
+    "item.util_rings.magnet_ring": "Ring of Magnatism",
+    "item.util_rings.growth_ring": "Ring of Accelerated Growth",
     "itemGroup.rings_tab": "Utility Rings"
 }

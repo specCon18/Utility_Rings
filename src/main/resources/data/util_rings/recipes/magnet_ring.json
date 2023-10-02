@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "$#@",
+        "#%#",
+        "@#$"
+    ],
+    "key": {
+        "$": {
+            "item": "minecraft:red_dye"
+        },
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "@": {
+            "item": "minecraft:blue_dye"
+        },
+        "%": {
+            "item": "util_rings:iron_ring"
+        }
+    },
+    "result": {
+        "item": "util_rings:magnet_ring",
+        "count": 1
+    }
+}
