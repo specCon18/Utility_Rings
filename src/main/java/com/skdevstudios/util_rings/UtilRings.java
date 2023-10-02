@@ -9,24 +9,24 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(UtilRings.MODID)
 public class UtilRings
 {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "util_rings";
-    public static final String MOD_VERSION = "1.20-1.0.0.0";
 
     public UtilRings()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Register the Deferred Register to the mod event bus so items get registered
+        //Register the Items
         ItemsInit.ITEMS.register(modEventBus);
-        // Register the Deferred Register to the mod event bus so tabs get registered
+        //Register the Creative Tabs
         CreativeTabInit.CREATIVE_MODE_TABS.register(modEventBus);
-        // Register ourselves for server and other game events we are interested in
+        // Register the Event Bus
         MinecraftForge.EVENT_BUS.register(this);
-        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
+        //Register the Config
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 }
