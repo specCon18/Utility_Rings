@@ -35,11 +35,11 @@ If at any point you are missing libraries in your IDE, or you've run into proble
 run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
 {this does not affect your code} and then start the process again.
 
-Mapping Names:
-============
+### Mapping Names:
 This Project uses the mappings provided by [ParchmentMC](https://parchmentmc.org/docs/getting-started)
-Credit:
-=======
+
+## Credit:
 - sinkillerj the developer of [Project E](https://github.com/sinkillerj/ProjectE) for basic iron band texture.
 - TheIllusiveC4 for the [CuriosAPI](https://github.com/TheIllusiveC4/Curios) saving me so much time.
 - The [ParchmentMC](https://parchmentmc.org/docs/getting-started) team for their neutral bindings.
+- The Industrial Forgoing Project for some base textures that were modified
