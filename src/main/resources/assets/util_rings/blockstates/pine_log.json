@@ -1,7 +1,7 @@
 {
     "variants": {
-        "axis=x": { "model": "util_rings:block/pine_log", "x": 90, "y": 0 },
-        "axis=y": { "model": "util_rings:block/pine_log"},
-        "axis=z": { "model": "util_rings:block/pine_log", "x": 90, "y": 90 }
+        "axis=x": { "model": "util_rings:block/pine_log", "x": 0, "y":90 },
+        "axis=y": { "model": "util_rings:block/pine_log", "x": 0, "y":90},
+        "axis=z": { "model": "util_rings:block/pine_log", "x": 0, "y": 0 }
     }
 }
