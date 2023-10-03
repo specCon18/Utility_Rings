@@ -39,5 +39,7 @@ public class ItemsInit {
     public static final RegistryObject<Item> MAGNET_RING = ITEMS.register("magnet_ring", () -> new MagnetRing(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> GROWTH_RING = ITEMS.register("growth_ring", () -> new GrowthRing(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore", () -> new BlockItem(BlockInit.LEAD_ORE.get(), new Item.Properties()));
+    public static final RegistryObject<BlockItem> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(), new Item.Properties()));
+    public static final RegistryObject<BlockItem> PINE_LOG_ITEM = ITEMS.register("pine_log", () -> new BlockItem(BlockInit.PINE_LOG.get(), new Item.Properties()));
 }
 

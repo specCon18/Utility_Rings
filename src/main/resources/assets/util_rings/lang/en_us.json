@@ -23,5 +23,7 @@
     "item.util_rings.tin_nugget": "Tin Nugget",
     "item.util_rings.tin_ingot": "Tin Ingot",
     "block.util_rings.lead_ore": "Lead Ore",
+    "block.util_rings.tin_ore": "Tin Ore",
+    "block.util_rings.pine_log": "Pine Log",
     "itemGroup.rings_tab": "Utility Rings"
 }

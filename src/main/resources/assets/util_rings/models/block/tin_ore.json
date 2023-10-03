@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/cube_all",
+    "textures":{
+        "all":"util_rings:block/tin_ore"
+    }
+}
