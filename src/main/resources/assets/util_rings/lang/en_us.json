@@ -25,5 +25,6 @@
     "block.util_rings.lead_ore": "Lead Ore",
     "block.util_rings.tin_ore": "Tin Ore",
     "block.util_rings.pine_log": "Pine Log",
+    "block.util_rings.stripped_pine_log": "Stripped Pine Log",
     "itemGroup.rings_tab": "Utility Rings"
 }

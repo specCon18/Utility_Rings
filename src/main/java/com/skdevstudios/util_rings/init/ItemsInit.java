@@ -41,5 +41,6 @@ public class ItemsInit {
     public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore", () -> new BlockItem(BlockInit.LEAD_ORE.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> PINE_LOG_ITEM = ITEMS.register("pine_log", () -> new BlockItem(BlockInit.PINE_LOG.get(), new Item.Properties()));
+    public static final RegistryObject<BlockItem> STRIPPED_PINE_LOG_ITEM = ITEMS.register("stripped_pine_log", () -> new BlockItem(BlockInit.STRIPPED_PINE_LOG.get(), new Item.Properties()));
 }
 

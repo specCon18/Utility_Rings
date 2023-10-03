@@ -25,4 +25,13 @@ public class BlockInit {
             .requiresCorrectToolForDrops()
         )
     );
+    public static final RegistryObject<Block> STRIPPED_PINE_LOG = BLOCKS.register("stripped_pine_log",
+        () -> new Block(BlockBehaviour.Properties.of()
+            .mapColor(MapColor.COLOR_BROWN)
+            .sound(SoundType.WOOD)
+            .strength(2)
+            .explosionResistance(2)
+            .requiresCorrectToolForDrops()
+        )
+    );
 }

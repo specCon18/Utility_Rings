@@ -45,7 +45,7 @@ public class CreativeTabInit {
             output.accept(BlockInit.LEAD_ORE.get());
             output.accept(BlockInit.TIN_ORE.get());
             output.accept(BlockInit.PINE_LOG.get());
-
+            output.accept(BlockInit.STRIPPED_PINE_LOG.get());
         })
         .build()
     );
