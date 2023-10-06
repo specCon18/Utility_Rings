@@ -17,7 +17,6 @@ public class VolcanicGlassRing extends Item implements ICurioItem {
     public VolcanicGlassRing(Item.Properties properties) {
         super(properties);
     }
-    
     @Override
     public InteractionResult useOn(UseOnContext context) {
         Level world = context.getLevel();

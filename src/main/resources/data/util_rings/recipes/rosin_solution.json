@@ -1,0 +1,13 @@
+{
+    "type": "forge:brewing",
+    "input": {
+        "item": "minecraft:potion",
+        "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    "reagent": {
+        "item": "util_rings:pine_tar"
+    },
+    "output": {
+        "item": "util_rings:rosin_solution"
+    }
+}

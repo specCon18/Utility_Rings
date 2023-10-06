@@ -1,0 +1,12 @@
+{
+    "type": "forge:brewing",
+    "input": {
+        "item": "util_rings:rosin_solution"
+    },
+    "reagent": {
+        "item": "minecraft:empty"
+    },
+    "output": {
+        "item": "util_rings:rosin"
+    }
+}

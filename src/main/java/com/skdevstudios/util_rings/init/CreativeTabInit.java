@@ -42,6 +42,9 @@ public class CreativeTabInit {
             output.accept(ItemsInit.VOLCANIC_GLASS_RING.get());
             output.accept(ItemsInit.MAGNET_RING.get());
             output.accept(ItemsInit.GROWTH_RING.get());
+            output.accept(ItemsInit.IRON_PLATE.get());
+            output.accept(ItemsInit.RAW_TIN.get());
+            output.accept(ItemsInit.RAW_LEAD.get());
             output.accept(BlockInit.LEAD_ORE.get());
             output.accept(BlockInit.TIN_ORE.get());
             output.accept(BlockInit.PINE_LOG.get());

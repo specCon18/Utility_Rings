@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " @ ",
+        " # ",
+        "   "
+    ],
+    "key": {
+        "@": {
+            "item": "util_rings:iron_plates"
+        },
+        "#": {
+            "item": "util_rings:jewelers_hammer"
+        }
+    },
+    "result": {
+        "item": "util_rings:iron_ring_top",
+        "count": 1
+    }
+}

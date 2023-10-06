@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "util_rings:solder_blend"
+    },
+    "result": "util_rings:solder_shot",
+    "experience": 0.7,
+    "cookingtime": 100
+}
+  

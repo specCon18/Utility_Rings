@@ -1,16 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "@#@",
-    "# #",
-    "@#@"
+    "%!%",
+    "#^$",
+    "%@%"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
+    "!": {
+      "item": "util_rings:iron_ring_top"
     },
     "@": {
-      "item": "minecraft:iron_nugget"
+      "item": "util_rings:iron_ring_bottom"
+    },
+    "#": {
+      "item": "util_rings:iron_ring_left"
+    },
+    "$": {
+      "item": "util_rings:iron_ring_right"
+    },
+    "%": {
+      "item": "util_rings:solder_wire"
+    },
+    "^": {
+      "item": "util_rings:jewelers_hammer"
     }
   },
   "result": {

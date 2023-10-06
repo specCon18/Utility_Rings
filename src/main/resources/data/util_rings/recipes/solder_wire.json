@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "util_rings:solder_shot"
+            }
+        ],
+        "result": {
+            "item": "util_rings:solder_wire",
+            "count": 9
+        }
+}
