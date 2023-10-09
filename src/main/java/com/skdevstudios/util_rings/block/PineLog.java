@@ -25,6 +25,6 @@ public class PineLog extends Block {
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         Direction direction = context.getHorizontalDirection();
-        return this.defaultBlockState().setValue(AXIS, direction.getAxis()).setValue(FACING, direction);
+        return this.defaultBlockState().setValue(AXIS, direction.getAxis());
     }
 }

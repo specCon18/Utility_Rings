@@ -7,7 +7,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "util_rings:lead_ore"
+                    "name": "util_rings:raw_lead"
                 }
             ],
             "conditions": [

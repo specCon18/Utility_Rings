@@ -3,7 +3,6 @@ package com.skdevstudios.util_rings;
 import com.skdevstudios.util_rings.init.BlockInit;
 import com.skdevstudios.util_rings.init.CreativeTabInit;
 import com.skdevstudios.util_rings.init.ItemsInit;
-import com.skdevstudios.util_rings.init.PotionInit;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,11 +25,8 @@ public class UtilRings
         ItemsInit.ITEMS.register(modEventBus);
         //Register the Blocks
         BlockInit.BLOCKS.register(modEventBus);
-        //Register the Potions
-        PotionInit.POTIONS.register(modEventBus);
         //Register the Creative Tabs
         CreativeTabInit.CREATIVE_MODE_TABS.register(modEventBus);
-
         // Register the Event Bus
         MinecraftForge.EVENT_BUS.register(this);
         //Register the Config

@@ -7,7 +7,7 @@
           "entries": [
               {
                   "type": "minecraft:item",
-                  "name": "util_rings:tin_ore"
+                  "name": "util_rings:raw_tin"
               }
           ],
           "conditions": [
