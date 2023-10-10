@@ -2,6 +2,7 @@ package com.skdevstudios.util_rings.init;
 
 import com.skdevstudios.util_rings.UtilRings;
 import com.skdevstudios.util_rings.items.GrowthRing;
+import com.skdevstudios.util_rings.items.IronRing;
 import com.skdevstudios.util_rings.items.MagnetRing;
 import com.skdevstudios.util_rings.items.VolcanicGlassRing;
 
@@ -15,7 +16,7 @@ public class ItemsInit {
     // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, UtilRings.MODID);
 
-    public static final RegistryObject<Item> IRON_RING = ITEMS.register("iron_ring", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> IRON_RING = ITEMS.register("iron_ring", () -> new IronRing());
     public static final RegistryObject<Item> IRON_RING_LEFT = ITEMS.register("iron_ring_left", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> IRON_RING_TOP = ITEMS.register("iron_ring_top", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> IRON_RING_BOTTOM = ITEMS.register("iron_ring_bottom", () -> new Item(new Item.Properties().stacksTo(1)));
@@ -38,9 +39,9 @@ public class ItemsInit {
     public static final RegistryObject<Item> SOLDER_SPOOL = ITEMS.register("solder_spool", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SOLDER_WIRE = ITEMS.register("solder_wire", () -> new Item(new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> IRON_PLATE = ITEMS.register("iron_plate", () -> new Item(new Item.Properties().stacksTo(64)));
-    public static final RegistryObject<Item> VOLCANIC_GLASS_RING = ITEMS.register("volcanic_glass_ring", () -> new VolcanicGlassRing(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> MAGNET_RING = ITEMS.register("magnet_ring", () -> new MagnetRing(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> GROWTH_RING = ITEMS.register("growth_ring", () -> new GrowthRing(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> VOLCANIC_GLASS_RING = ITEMS.register("volcanic_glass_ring", () -> new VolcanicGlassRing());
+    public static final RegistryObject<Item> MAGNET_RING = ITEMS.register("magnet_ring", () -> new MagnetRing());
+    public static final RegistryObject<Item> GROWTH_RING = ITEMS.register("growth_ring", () -> new GrowthRing());
     public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore", () -> new BlockItem(BlockInit.LEAD_ORE.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> PINE_LOG_ITEM = ITEMS.register("pine_log", () -> new BlockItem(BlockInit.PINE_LOG.get(), new Item.Properties()));

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "util_rings:volcanic_glass_ring",
+        "util_rings:magnet_ring",
+        "util_rings:growth_ring",
+        "util_rings:iron_ring"
+    ]
+}
