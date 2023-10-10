@@ -3,6 +3,7 @@ package com.skdevstudios.util_rings.init;
 import com.skdevstudios.util_rings.UtilRings;
 import com.skdevstudios.util_rings.items.GrowthRing;
 import com.skdevstudios.util_rings.items.IronRing;
+import com.skdevstudios.util_rings.items.JewelersHammer;
 import com.skdevstudios.util_rings.items.MagnetRing;
 import com.skdevstudios.util_rings.items.VolcanicGlassRing;
 
@@ -21,7 +22,7 @@ public class ItemsInit {
     public static final RegistryObject<Item> IRON_RING_TOP = ITEMS.register("iron_ring_top", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> IRON_RING_BOTTOM = ITEMS.register("iron_ring_bottom", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> IRON_RING_RIGHT = ITEMS.register("iron_ring_right", () -> new Item(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> JEWELERS_HAMMER = ITEMS.register("jewelers_hammer", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> JEWELERS_HAMMER = ITEMS.register("jewelers_hammer", () -> new JewelersHammer());
     public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead", () -> new Item(new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> LEAD_DUST = ITEMS.register("lead_dust", () -> new Item(new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> LEAD_NUGGET = ITEMS.register("lead_nugget", () -> new Item(new Item.Properties().stacksTo(64)));
